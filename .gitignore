@@ -5,6 +5,8 @@ test/data/*
 test/atomic_data/*
 test/fragmented_data/*
 test/test_data
+test/__pycache__
+ldaca/__pycache__
 !test/data/.gitkeep
 .idea
 .DS_Store
