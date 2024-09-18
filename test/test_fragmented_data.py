@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import os
 import glob
 
-load_dotenv('../.env')
+load_dotenv('../.env', override=True)
 API_TOKEN = os.getenv('API_KEY')
 URL = os.getenv('HOST')
 COLLECTION = os.getenv('COLLECTION_FRAGMENTED')
